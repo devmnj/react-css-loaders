@@ -7,14 +7,14 @@ import Loaders from './components/Page/Loaders';
 function App() {
   return (
     <div >
-    <BrowserRouter>
-    <Route path='/' component={ReactHeader} exact/>    
-    <Route path='/loaders' component={Loaders}/>    
-   >
+      <BrowserRouter>
+        <Route path='/' component={ReactHeader} exact />
+        <Route path='/loaders' component={Loaders} />
 
 
-    </BrowserRouter>
-      
+
+      </BrowserRouter>
+
 
     </div>
   );
